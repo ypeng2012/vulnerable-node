@@ -26,5 +26,5 @@ RUN chmod +x /app/start.sh
 
 EXPOSE 3000
 
-CMD [ "/app/start.sh &" ]
+CMD [ "/app/start.sh" ]
 #CMD [ "npm", "start" ]
